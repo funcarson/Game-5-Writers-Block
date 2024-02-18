@@ -25,6 +25,7 @@
     {"name":"enviroment","order":10,"path":"folders/Objects/enviroment.yy",},
     {"name":"obstacles","order":11,"path":"folders/Objects/obstacles.yy",},
     {"name":"weapons","order":6,"path":"folders/Sprites/weapons.yy",},
+    {"name":"player","order":13,"path":"folders/Objects/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rm_first_choice","order":3,"path":"rooms/rm_first_choice/rm_first_choice.yy",},
@@ -44,11 +45,13 @@
     {"name":"rm_instructions","order":2,"path":"rooms/rm_instructions/rm_instructions.yy",},
     {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
     {"name":"enemy_controller","order":1,"path":"objects/enemy_controller/enemy_controller.yy",},
+    {"name":"obj_sword","order":1,"path":"objects/obj_sword/obj_sword.yy",},
     {"name":"obj_start_button","order":2,"path":"objects/obj_start_button/obj_start_button.yy",},
     {"name":"spr_crow","order":2,"path":"sprites/spr_crow/spr_crow.yy",},
     {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_slimes","order":1,"path":"sprites/spr_slimes/spr_slimes.yy",},
+    {"name":"obj_player_parent","order":2,"path":"objects/obj_player_parent/obj_player_parent.yy",},
     {"name":"obj_platform","order":1,"path":"objects/obj_platform/obj_platform.yy",},
-    {"name":"obj_player","order":4,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
   ],
 }
