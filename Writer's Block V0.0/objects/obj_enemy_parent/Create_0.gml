@@ -6,7 +6,7 @@ grav = .9
 
 direction = 180;
 
-hp = 1000;
+hp = 100; //standard/med health
 max_hp = hp;
 
 
