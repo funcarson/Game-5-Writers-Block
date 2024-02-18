@@ -8,11 +8,19 @@ if (hp <= 0) {
 }
 
 
-//Makes it so they stay on a platform
+//Makes it so they stay on a platform and switch places when they run into one
 if (place_meeting(x, y + vsp, obj_platform)) {
 	
 	while (!place_meeting(x, y + sign(vsp), obj_platform)) {
 		y += sign(vsp)
+	}
+	
+	if(direction == 180) {
+		direction = 0;
+	}
+	
+	else {
+		direction = 180;
 	}
 	
 	vsp = 0
