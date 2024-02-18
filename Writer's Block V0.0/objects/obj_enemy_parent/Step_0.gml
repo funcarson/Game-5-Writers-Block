@@ -8,6 +8,7 @@ if (hp <= 0) {
 }
 
 
+//Makes it so they stay on a platform
 if (place_meeting(x, y + vsp, obj_platform)) {
 	
 	while (!place_meeting(x, y + sign(vsp), obj_platform)) {
@@ -15,6 +16,9 @@ if (place_meeting(x, y + vsp, obj_platform)) {
 	}
 	
 	vsp = 0
+}
+else {
+	vsp = normal_vsp;
 }
 
 if (place_meeting(x, y + vsp, obj_floor)) {
@@ -26,28 +30,30 @@ if (place_meeting(x, y + vsp, obj_floor)) {
 	vsp = 0
 }
 
-
+else {
+	vsp = normal_vsp;
+}
 //Makes enemies bounce off of spikes and fire
-if (place_meeting(x, y + vsp, obj_spikes) || (place_meeting(x,y + vsp, obj_fire_bar)) {
+if (place_meeting(x, y + vsp, obj_spikes) || place_meeting(x,y + vsp, obj_fire_bar)) {
 	
 	while (!place_meeting(x, y + sign(vsp), obj_spikes) || !place_meeting(x,y + sign(vsp), obj_fire_bar)) {
-		y += sign(vsp)
+		y += sign(vsp);
 	}
 	
 	if(direction == 180) {
 		direction = 0;
-		hspeed = 2;
 	}
 	
 	else {
 		direction = 180;
-		hspeed = -2;
 	}
 	
-	vsp = 0
+	vsp = 0;
 }
 
-
+else {
+	vsp = normal_vsp;
+}
 
 
 

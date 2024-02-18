@@ -3,9 +3,9 @@
 
 // Inherit the parent event
 event_inherited();
-vsp = 0;
-hspeed = 8;
-hp = 50;
+vsp = 5;
+hspeed = 0;
+hp = 100;
 max_hp = hp;
 normal_vsp = vsp;
-
+alarm[0] = 90;

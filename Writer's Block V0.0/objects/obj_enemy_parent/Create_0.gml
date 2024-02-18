@@ -3,6 +3,7 @@
 hspeed = 0;
 vsp = 5;
 grav = .9
+normal_vsp = vsp;
 
 direction = 180;
 
