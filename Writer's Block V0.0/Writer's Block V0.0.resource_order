@@ -37,7 +37,7 @@
     {"name":"obj_arrow","order":2,"path":"objects/obj_arrow/obj_arrow.yy",},
     {"name":"obj_quit_button","order":1,"path":"objects/obj_quit_button/obj_quit_button.yy",},
     {"name":"obj_back_arrow","order":3,"path":"objects/obj_back_arrow/obj_back_arrow.yy",},
-    {"name":"obj_crumbling_platofrm","order":1,"path":"objects/obj_crumbling_platofrm/obj_crumbling_platofrm.yy",},
+    {"name":"obj_crumbling_platoform","order":1,"path":"objects/obj_crumbling_platoform/obj_crumbling_platoform.yy",},
     {"name":"spr_sword","order":2,"path":"sprites/spr_sword/spr_sword.yy",},
     {"name":"obj_instructions","order":14,"path":"objects/obj_instructions/obj_instructions.yy",},
     {"name":"spr_arrow","order":3,"path":"sprites/spr_arrow/spr_arrow.yy",},

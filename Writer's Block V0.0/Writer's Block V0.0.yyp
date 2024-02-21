@@ -58,7 +58,7 @@
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},},
     {"id":{"name":"choice_controller","path":"objects/choice_controller/choice_controller.yy",},},
     {"id":{"name":"obj_back_arrow","path":"objects/obj_back_arrow/obj_back_arrow.yy",},},
-    {"id":{"name":"obj_crumbling_platofrm","path":"objects/obj_crumbling_platofrm/obj_crumbling_platofrm.yy",},},
+    {"id":{"name":"obj_crumbling_platoform","path":"objects/obj_crumbling_platoform/obj_crumbling_platoform.yy",},},
     {"id":{"name":"spr_sword","path":"sprites/spr_sword/spr_sword.yy",},},
     {"id":{"name":"obj_instructions","path":"objects/obj_instructions/obj_instructions.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},

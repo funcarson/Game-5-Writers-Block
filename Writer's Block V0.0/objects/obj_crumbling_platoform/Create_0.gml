@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm[0] = 90;
+vsp = 0;
+grav = 0.9;
 
 
 
