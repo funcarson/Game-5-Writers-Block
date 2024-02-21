@@ -1,12 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-direction = 0;
-global.player_direction = direction;
-
 global.player_hp = 75;
+
+vsp = 0;
+hsp = 0;
+grav = 0.1;
 move_speed = 7;
+jump_speed = 5;
 
+instance_create_layer(x+5, y, "Instances", obj_sword_slash)
 
 
 
@@ -112,6 +115,4 @@ move_speed = 7;
 
 
 
-// Inherit the parent event
-event_inherited();
 

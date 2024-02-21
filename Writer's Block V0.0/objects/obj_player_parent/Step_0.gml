@@ -13,7 +13,7 @@ hsp = move * move_speed;
 //proc gravity and jumping
 if(!place_meeting(x, y + 1, obj_floor))
 {
-vsp += grav;
+	vsp += grav;
 }
 else
 {

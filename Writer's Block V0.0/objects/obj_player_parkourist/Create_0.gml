@@ -1,10 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-direction = 0;
-global.player_direction = direction;
+global.player_hp = 50;
 
+vsp = 0;
+hsp = 0;
+grav = 0.25;
 move_speed = 10;
+jump_speed = 10;
+
+
+
+
 
 
 
