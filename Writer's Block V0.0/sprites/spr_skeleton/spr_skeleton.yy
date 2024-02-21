@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_skeleton",
-  "bbox_bottom": 0,
+  "bbox_bottom": 359,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 359,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"79062dfb-7c31-47c6-aec6-83d8190dfad0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"80e8460b-fc33-493d-8e1d-ac49b7e48de8",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 360,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cd2cc73e-f401-40c2-8c60-3828a9ba6c83","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3893893d-4921-496f-aa82-2fcd71142013","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"79062dfb-7c31-47c6-aec6-83d8190dfad0","path":"sprites/spr_skeleton/spr_skeleton.yy",},},},"Disabled":false,"id":"27f1dab0-995a-4c12-af0d-aff6cc4aa6e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"80e8460b-fc33-493d-8e1d-ac49b7e48de8","path":"sprites/spr_skeleton/spr_skeleton.yy",},},},"Disabled":false,"id":"892ee194-55d8-4425-bc11-ae14724360fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 360,
 }
