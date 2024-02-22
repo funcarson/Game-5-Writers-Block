@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.player_hp = 50;
-
+hp = 50;
+max_hp = hp;
+global.player_direction = direction;
 vsp = 0;
 hsp = 0;
 grav = 0.25;

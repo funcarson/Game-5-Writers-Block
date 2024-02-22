@@ -34,6 +34,7 @@
   "ResourceOrderSettings": [
     {"name":"rm_first_choice","order":3,"path":"rooms/rm_first_choice/rm_first_choice.yy",},
     {"name":"obj_skeleton","order":1,"path":"objects/obj_skeleton/obj_skeleton.yy",},
+    {"name":"spr_goal","order":2,"path":"sprites/spr_goal/spr_goal.yy",},
     {"name":"obj_arrow","order":2,"path":"objects/obj_arrow/obj_arrow.yy",},
     {"name":"obj_quit_button","order":1,"path":"objects/obj_quit_button/obj_quit_button.yy",},
     {"name":"obj_back_arrow","order":3,"path":"objects/obj_back_arrow/obj_back_arrow.yy",},

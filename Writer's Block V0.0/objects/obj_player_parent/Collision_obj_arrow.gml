@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-var hitenemy = instance_place(x + hsp, y +vsp, obj_slime)
+/// @description Insert description here
+// You can write your code in this editor
+var hitenemy = instance_place(x + hsp, y +vsp, obj_skeleton)
 
 if(hitenemy && !invincible)
 {
@@ -22,90 +23,7 @@ if(hitenemy && !invincible)
 	 alarm[0] = 30;
   }
 }
-hp -=5;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+hp -=15;
 
 
 

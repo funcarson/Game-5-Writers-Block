@@ -21,8 +21,8 @@ if(hitenemy && !invincible)
 	 alarm[0] = 30;
   }
 }
-global.player_hp -=5;
-global.player_hp -=5;
+hp -=10;
+
 
 
 

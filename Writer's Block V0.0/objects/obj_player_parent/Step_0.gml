@@ -1,6 +1,6 @@
 /// @description
 
-global.player_direction = direction;
+global.player_direction = direction - 180;
 
 //get user input
 move_right	=  keyboard_check(ord("D"));
@@ -55,7 +55,7 @@ y += vsp;
 
 
  //game over condition
-if (global.player_hp <= 0){
+if (hp <= 0){
 	game_restart()
 }
 

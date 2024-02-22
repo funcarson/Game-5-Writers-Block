@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 hspeed = 0;
-vsp = 5;
+vsp = 0;
 grav = .9
 normal_vsp = vsp;
 
