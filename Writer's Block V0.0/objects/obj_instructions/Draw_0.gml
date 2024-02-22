@@ -4,7 +4,7 @@
 
 draw_set_font(f_title_text);
 
-draw_text(x, y, "Use A and D to move left and right, W to jump.");
+draw_text(x, y, "Use A and D to move left and right, W to jump, and left mouse to attack");
 
 // resets font
 draw_set_font(0);
