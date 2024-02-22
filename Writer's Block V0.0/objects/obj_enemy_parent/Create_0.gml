@@ -6,7 +6,6 @@ grav = .9
 normal_vsp = vsp;
 
 direction = 180;
-
 hp = 100; //standard/med health
 max_hp = hp;
 

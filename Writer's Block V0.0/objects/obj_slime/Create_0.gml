@@ -6,6 +6,7 @@ event_inherited();
 vsp = 0;
 hp = 200;
 max_hp = hp;
-hspeed = 2;
+hspeed = 1;
 
 
+direction = 180;

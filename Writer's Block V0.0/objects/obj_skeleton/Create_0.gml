@@ -9,3 +9,4 @@ hp = 100;
 max_hp = hp;
 normal_vsp = vsp;
 alarm[0] = 90;
+direction =180;

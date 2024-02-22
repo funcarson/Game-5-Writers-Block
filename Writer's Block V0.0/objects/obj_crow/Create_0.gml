@@ -8,4 +8,4 @@ hspeed = 6;
 hp = 50;
 max_hp = hp;
 normal_vsp = vsp;
-
+direction = 180;
