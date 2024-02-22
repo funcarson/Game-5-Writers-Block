@@ -3,13 +3,13 @@
   "resourceVersion": "1.0",
   "name": "obj_decision_point_samurai",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player_gunslinger","path":"objects/obj_player_gunslinger/obj_player_gunslinger.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "enviroment",
-    "path": "folders/Objects/enviroment.yy",
+    "name": "first choice",
+    "path": "folders/Objects/descisions/first choice.yy",
   },
   "parentObjectId": null,
   "persistent": false,
