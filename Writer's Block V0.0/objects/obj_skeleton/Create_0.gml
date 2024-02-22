@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-vsp = 5;
+vsp = 0;
 hspeed = 0;
 hp = 100;
 max_hp = hp;

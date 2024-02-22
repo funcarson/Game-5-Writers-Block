@@ -1,6 +1,7 @@
 /// @description
 
 global.player_hp = 100;
+global.player_direction = direction;
 
 vsp = 0;
 hsp = 0;

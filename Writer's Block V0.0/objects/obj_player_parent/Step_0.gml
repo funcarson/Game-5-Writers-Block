@@ -1,5 +1,7 @@
 /// @description
 
+global.player_direction = direction;
+
 //get user input
 move_right	=  keyboard_check(ord("D"));
 move_left	= -keyboard_check(ord("A"));
