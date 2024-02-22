@@ -7,7 +7,9 @@ vsp = 0;
 hsp = 0;
 grav = 0.1;
 move_speed = 7;
-jump_speed = 5;
+jump_speed = 7;
+
+invincible = false;
 
 instance_create_layer(x+5, y, "Instances", obj_sword_slash)
 

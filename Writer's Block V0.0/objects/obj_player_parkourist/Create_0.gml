@@ -9,7 +9,7 @@ grav = 0.25;
 move_speed = 10;
 jump_speed = 10;
 
-
+invincible = false;
 
 
 

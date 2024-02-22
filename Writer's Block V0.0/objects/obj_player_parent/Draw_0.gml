@@ -1,7 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.player_direction = direction;
+if(invincible){
+	if(image_alpha ==1){
+		image_alpha = 0;
+	}
+	else{
+		image_alpha = 1;
+	}
+}
+else{
+	image_alpha = 1;
+}
+draw_self();
 
 
 
@@ -107,6 +118,6 @@ global.player_direction = direction;
 
 
 
-// Inherit the parent event
-event_inherited();
+
+
 
