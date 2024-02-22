@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-obj_sword_slash.image_speed = 5;
+instance_create_layer(x+5, y, "Instances", obj_sword_slash)
 
 
 

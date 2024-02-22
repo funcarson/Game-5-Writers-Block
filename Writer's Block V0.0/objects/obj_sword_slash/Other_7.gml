@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_speed = 0;
-image_index = 0;
-
+if(sprite_index == spr_sword_slash_attack){
+	instance_destroy(self);
+}
 
 
 

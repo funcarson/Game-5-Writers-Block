@@ -12,7 +12,6 @@ jump_speed = 7;
 
 invincible = false;
 
-instance_create_layer(x+5, y, "Instances", obj_sword_slash)
 
 
 
