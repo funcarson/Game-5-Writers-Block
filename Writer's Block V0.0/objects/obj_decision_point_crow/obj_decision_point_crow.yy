@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_goal",
-  "eventList": [],
+  "name": "obj_decision_point_crow",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "enviroment",
-    "path": "folders/Objects/enviroment.yy",
+    "name": "seccond choice",
+    "path": "folders/Objects/descisions/seccond choice.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_decision_point",
+    "path": "sprites/spr_decision_point/spr_decision_point.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

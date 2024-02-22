@@ -4,7 +4,7 @@
 if (vsp = 0) {
 	if (invincible = 0) {
 	
-		hp -= 5
+		hp -= 25
 		invincible = 1;
 		alarm[0] = 90;
 		alarm[1] = 1;
