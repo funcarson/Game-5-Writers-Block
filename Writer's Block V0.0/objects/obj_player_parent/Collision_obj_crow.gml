@@ -7,7 +7,7 @@ if (invincible = 0) {
 		alarm[0] = 90;
 		alarm[1] = 1;
 }
-
+audio_play_sound(sd_hurt_player, 0 , false);
 
 
 

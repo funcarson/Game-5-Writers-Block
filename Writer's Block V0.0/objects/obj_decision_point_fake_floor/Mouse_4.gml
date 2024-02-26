@@ -12,7 +12,7 @@ else {
 	room_goto(rm_level_3_skeleton);
 }
 
-
+audio_play_sound(sd_button_press, 0 , false);
 
 
 

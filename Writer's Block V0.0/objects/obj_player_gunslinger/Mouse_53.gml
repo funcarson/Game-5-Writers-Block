@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 instance_create_layer(x, y, "Instances", obj_bullet);
+audio_play_sound(sd_shoot, 0, false);
 
 
 

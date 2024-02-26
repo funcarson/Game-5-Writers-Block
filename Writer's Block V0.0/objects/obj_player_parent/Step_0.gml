@@ -18,6 +18,7 @@ if(!place_meeting(x, y + 1, obj_floor)){
 }
 else{
 	if(jump_key)
+	audio_play_sound(sd_jump,0,false);
 { // if the jump key is pressed
 		vsp = -jump_speed;
 	}
@@ -56,7 +57,8 @@ y += vsp;
 
  //game over condition
 if (hp <= 0){
-	game_restart()
+	room_goto(rm_lose);
+	audio_play_sound(sd_death_player, 0 , false);
 }
 
 // if they fall off the edge of the map

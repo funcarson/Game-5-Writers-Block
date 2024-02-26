@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 instance_create_layer(x+5, y, "Instances", obj_sword_slash)
-
+audio_play_sound(sd_slash,0,false);
 
 
 
