@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sd_shoot.mp3",
   "type": 0,
-  "volume": 0.11,
+  "volume": 0.05,
 }
