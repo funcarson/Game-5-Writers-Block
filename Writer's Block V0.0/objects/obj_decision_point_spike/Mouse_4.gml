@@ -3,13 +3,13 @@
 global.trap_choice = 0;
 
 if global.enemy_choice = 2 {
-	room_goto(rm_level_3_crow);
+	room_goto(rm_level_3_crow_spikes);
 }
 else if global.enemy_choice = 1 {
-	room_goto(rm_level_3_slime);
+	room_goto(rm_level_3_slime_spikes);
 }
 else {
-	room_goto(rm_level_3_skeleton);
+	room_goto(rm_level_3_skeleton_spikes);
 }
 
 
