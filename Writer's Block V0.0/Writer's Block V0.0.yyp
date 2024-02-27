@@ -199,6 +199,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_story_3","path":"rooms/rm_story_3/rm_story_3.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_beginning","path":"rooms/rm_beginning/rm_beginning.yy",},},
     {"roomId":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
@@ -210,7 +211,6 @@
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_story_1","path":"rooms/rm_story_1/rm_story_1.yy",},},
     {"roomId":{"name":"rm_story_2","path":"rooms/rm_story_2/rm_story_2.yy",},},
-    {"roomId":{"name":"rm_story_3","path":"rooms/rm_story_3/rm_story_3.yy",},},
     {"roomId":{"name":"rm_level_2_skeleton","path":"rooms/rm_level_2_skeleton/rm_level_2_skeleton.yy",},},
     {"roomId":{"name":"rm_level_2_slime","path":"rooms/rm_level_2_slime/rm_level_2_slime.yy",},},
     {"roomId":{"name":"rm_level_3_crow_crumbling","path":"rooms/rm_level_3_crow_crumbling/rm_level_3_crow_crumbling.yy",},},
