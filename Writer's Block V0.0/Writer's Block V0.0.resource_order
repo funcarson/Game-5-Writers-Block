@@ -36,10 +36,10 @@
     {"name":"Gunslinger","order":3,"path":"folders/Sprites/Players/Gunslinger.yy",},
     {"name":"Parkourist","order":5,"path":"folders/Sprites/Players/Parkourist.yy",},
     {"name":"Samurai","order":4,"path":"folders/Sprites/Players/Samurai.yy",},
+    {"name":"Story","order":12,"path":"folders/Sprites/Story.yy",},
     {"name":"weapons","order":6,"path":"folders/Sprites/weapons.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
-    {"name":"Story","order":12,"path":"folders/Sprites/Story.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sd_lose","order":7,"path":"sounds/sd_lose/sd_lose.yy",},

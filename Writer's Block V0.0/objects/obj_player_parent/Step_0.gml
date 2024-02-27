@@ -8,21 +8,16 @@ move_left	= -keyboard_check(ord("A"));
 jump_key	=  keyboard_check_pressed(ord("W"));
 
 //process input
-var move = move_left + move_right;
+hsp = (move_left + move_right) * move_speed;
 
-hsp = move * move_speed;
-
-//proc gravity and jumping
-if(!place_meeting(x, y + 1, obj_floor)){
-	vsp += grav;
-}
-else{
-	if(jump_key)
-	audio_play_sound(sd_jump,0,false);
-{ // if the jump key is pressed
+// if the jump key is pressed
+if(place_meeting(x, y + 1, obj_platform )||place_meeting(x, y + 1, obj_floor)) {
+	if(jump_key){
+		audio_play_sound(sd_jump,0,false); 
 		vsp = -jump_speed;
 	}
-} 
+}
+ 
 
 //handle collisions
 //horizontal collision check
@@ -40,20 +35,33 @@ x = clamp(x, 0, room_width - sprite_width / 2);
 
 //vertical collision check
 if(place_meeting(x,y+vsp, obj_floor)){
-	
-	//stop vertical motion
-	vsp = 0;
+	if(jump_key){
+		vsp = -jump_speed
+	}
 }
 if(place_meeting(x,y+vsp, obj_platform)){
-	//stop vertical motion
-	vsp = 0;
+	if(jump_key){
+		vsp = -jump_speed
+	}
 }
-if(jump_key && place_meeting(x,y+vsp, obj_platform)){
-	vsp = -jump_speed;
+vsp += grav 
+
+if (place_meeting(x, y + vsp, obj_platform)) {
+	while (!place_meeting(x, y + sign(vsp), obj_platform)) {
+		y += sign(vsp)
+	}
+	vsp = 0
+}
+if (place_meeting(x, y + vsp, obj_floor)) {
+	while (!place_meeting(x, y + sign(vsp), obj_floor)) {
+		y += sign(vsp)
+	}
+	vsp = 0
 }
 
-y += vsp;
-
+//Apply hsp and vsp
+x += hsp
+y += vsp
 
  //game over condition
 if (hp <= 0){

@@ -1,16 +1,51 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-hp = 75;
+hp = 50;
 max_hp = hp;
 global.player_direction = direction;
 vsp = 0;
 hsp = 0;
-grav = 0.12;
-move_speed = 5;
+grav = 0.14;
+move_speed = 3;
 jump_speed = 7;
 
 invincible = false;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
