@@ -3,13 +3,13 @@
 global.trap_choice = 2;
 
 if global.enemy_choice = 2 {
-	room_goto(rm_level_3_crow_fire);
+	room_goto(rm_win);
 }
 else if global.enemy_choice = 1 {
-	room_goto(rm_level_3_slime_fire);
+	room_goto(rm_win);
 }
 else {
-	room_goto(rm_level_3_skeleton_fire);
+	room_goto(rm_win);
 }
 
 

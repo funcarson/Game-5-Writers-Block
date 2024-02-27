@@ -3,13 +3,13 @@
 global.trap_choice = 1;
 
 if global.enemy_choice = 2 {
-	room_goto(rm_level_3_crow_crumbling);
+	room_goto(rm_win);
 }
 else if global.enemy_choice = 1 {
-	room_goto(rm_level_3_slime_crumbling);
+	room_goto(rm_win);
 }
 else {
-	room_goto(rm_level_3_skeleton_crumbling);
+	room_goto(rm_win);
 }
 
 audio_play_sound(sd_button_press, 0 , false);

@@ -3,8 +3,15 @@
 
 if(follow != noone)
 {
-	xTo = follow.x;
-	yTo = follow.y;
+	if(follow.x && follow.y) {
+		xTo = follow.x;
+		yTo = follow.y;
+	}
+	
+	else {
+		xto = x;
+		yTo = y;
+	}
 }
 
 x += (xTo - x) / 25;
