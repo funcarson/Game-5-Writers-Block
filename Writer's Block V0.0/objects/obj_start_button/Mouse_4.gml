@@ -2,4 +2,4 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(rm_first_choice);
+room_goto(rm_story_1);
